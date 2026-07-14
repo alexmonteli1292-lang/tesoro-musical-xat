@@ -21,7 +21,7 @@ const songTitle = document.querySelector(".song h2");
 
 const listeners = document.querySelector(".listeners strong");
 
-const streamURL = "http://antyserv.in:8088/stream";
+const streamURL = "https://antyserv.in/8088/stream";
 
 
 
