@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TESORO MÚSICAL XAT</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style-xat.css">
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="player">
+
+
+
+    <!-- FIRMA -->
+
+    <div class="signature">
+
+        <img src="img/firma.png" alt="MARIZA MONTELI">
+
+    </div>
+
+
+
+
+    <!-- HEADER -->
+
+
+    <header class="header">
+
+
+        <div class="crown">
+
+            <img src="img/crown.png" alt="Corona">
+
+        </div>
+
+
+
+        <div class="brand">
+
+
+            <h1>TESORO MÚSICAL</h1>
+
+
+            <p>Donde la música se siente</p>
+
+
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+
+    <!-- CONTENIDO -->
+
+
+    
+
+
+    <div class="main-content">
+
+    <section class="cover">
+
+        <img id="songCover" src="img/logo.png" alt="Portada">
+
+    </section>
+
+
+
+
+
+
+        <section class="center-panel">
+
+
+            <div class="broadcast">
+
+
+                📡 TRANSMISIÓN EN VIVO
+
+
+
+                <div class="quality">
+
+
+                    CALIDAD
+
+
+                    <strong>
+
+                        320 kbps
+
+                    </strong>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="equalizer">
+
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+            </div>
+
+
+
+
+
+
+            <div class="song">
+
+
+                <h3>
+
+                    🎵 AHORA SUENA
+
+                </h3>
+
+
+
+                <h2>
+
+                    TESORO MÚSICAL
+
+                </h2>
+
+
+
+                <p>
+
+                    Artista
+
+                </p>
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+        <aside class="right-panel">
+
+
+
+            <div class="listeners">
+
+
+                <h3>
+
+                    OYENTES
+
+                </h3>
+
+
+
+                <strong>
+
+                    0
+
+                </strong>
+
+
+
+                <p>
+
+                    🟢 EN LÍNEA
+
+                </p>
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="social">
+
+
+                <h3>
+
+                    SÍGUENOS
+
+                </h3>
+
+
+
+                <div class="social-item">
+
+                    <img src="img/facebook.png">
+
+                    <span>/TesoroMusical</span>
+
+
+                </div>
+
+
+
+                <div class="social-item">
+
+                    <img src="img/instagram.png">
+
+                    <span>@tesoromusical</span>
+
+
+                </div>
+
+
+
+                <div class="social-item">
+
+                    <img src="img/xat.png">
+
+                    <span>xat.com/tesoromusical</span>
+
+
+                </div>
+
+
+
+                <div class="social-item">
+
+                    <img src="img/youtube.png">
+
+                    <span>/TesoroMusical</span>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </aside>
+
+</div>
+
+    
+
+
+
+
+
+
+
+    <!-- CONTROLES -->
+
+
+    <section class="controls">
+
+
+
+        <div class="volume">
+
+
+            <span id="mute">
+
+                🔊
+
+            </span>
+
+
+            <input 
+            type="range"
+            id="volume"
+            min="0"
+            max="100"
+            value="80">
+
+
+        </div>
+
+
+
+
+
+
+        <div class="buttons">
+
+
+            <button class="side-btn">
+
+                ⏮
+
+            </button>
+
+
+
+            <button class="play">
+
+                ▶
+
+            </button>
+
+
+
+            <button class="side-btn">
+
+                ⏭
+
+            </button>
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="stream">
+
+
+            STREAM
+
+
+            <strong>
+
+                320 kbps
+
+            </strong>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+
+    <footer class="footer-bar">
+
+
+        <div class="footer-left">
+
+
+            <img src="img/microphone.png">
+
+
+        </div>
+
+
+
+
+        <div class="footer-text">
+
+
+            Diviértete, al final ya todos estamos locos.
+
+
+        </div>
+
+
+
+
+
+        <div class="footer-right">
+
+
+            <img src="img/stars.png">
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+</div>
+
+
+
+
+
+<audio id="audio"></audio>
+
+
+
+
+<script src="scriptxat.js"></script>
+
+
+
+</body>
+
+
+</html>

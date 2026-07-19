@@ -1,0 +1,1142 @@
+/* ======================================
+   TESORO MÚSICAL
+   VERSION XAT 775x450
+   BLOQUE 1
+====================================== */
+
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    font-family:'Poppins',sans-serif;
+
+
+    background:
+
+    radial-gradient(
+        circle at top,
+        rgba(255,255,255,.12),
+        transparent 25%
+    ),
+
+
+    radial-gradient(
+        circle at 80% 20%,
+        rgba(212,175,55,.12),
+        transparent 20%
+    ),
+
+
+    linear-gradient(
+        135deg,
+        #020817,
+        #0b2d63,
+        #123f82,
+        #020817
+    );
+
+}
+
+
+
+/* CONTENEDOR PRINCIPAL XAT */
+
+
+.player{
+
+    position:relative;
+
+
+    width:775px;
+
+    height:450px;
+
+
+    padding:15px;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    linear-gradient(
+        180deg,
+        rgba(10,30,65,.96),
+        rgba(3,12,30,.98)
+    );
+
+
+    border:2px solid #d4af37;
+
+
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.45),
+
+    0 0 90px rgba(20,90,180,.40);
+
+
+}
+
+
+
+/* FIRMA */
+
+.signature{
+
+    position:absolute;
+
+    left:50px;
+
+    top:325px;
+
+}
+
+
+
+.signature img{
+
+    width:120px;
+
+    height:auto;
+
+    object-fit:contain;
+
+
+    filter:
+
+    drop-shadow(0 0 6px rgba(220,225,230,.9))
+
+    drop-shadow(0 0 18px rgba(170,180,190,.8));
+
+}
+
+
+
+/* HEADER */
+
+
+.header{
+
+    text-align:center;
+
+}
+
+
+
+/* CORONA
+
+   SE MANTIENE IGUAL
+
+*/
+
+
+.crown{
+
+    position:absolute;
+
+    top:-120px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+
+.crown img{
+
+    width:200px;
+
+    height:200px;
+
+    object-fit:contain;
+
+}
+
+
+
+/* TITULO */
+
+
+.brand h1{
+
+
+    font-family:'Cinzel Decorative',serif;
+
+
+    font-size:42px;
+
+
+    font-weight:900;
+
+
+    letter-spacing:4px;
+
+
+
+    background:linear-gradient(
+        180deg,
+        #fff1a6,
+        #d4af37,
+        #8a6418
+    );
+
+
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+
+
+    text-shadow:
+
+
+    0 3px 8px rgba(0,0,0,.8),
+
+
+    0 0 18px rgba(212,175,55,.55);
+
+
+}
+
+
+
+
+.brand p{
+
+
+    margin-top:5px;
+
+
+    font-family:'Great Vibes',cursive;
+
+
+    font-size:24px;
+
+
+    color:#e6c65c;
+
+
+
+    text-shadow:
+
+
+    0 0 8px rgba(212,175,55,.7);
+
+
+}/* ======================================
+   CUERPO PRINCIPAL XAT
+   BLOQUE 2
+====================================== */
+
+
+.main-content{
+
+    width:100%;
+
+    display:grid;
+
+    grid-template-columns:190px 1fr 180px;
+
+    gap:12px;
+
+    margin-top:10px;
+
+}
+
+
+
+
+
+/* CARATULA */
+
+.cover{
+
+    height:190px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    border:3px solid #d4af37;
+
+    position:relative;
+
+    box-shadow:
+    0 0 25px rgba(212,175,55,.55);
+
+}
+
+
+
+
+
+
+.cover img{
+
+
+    width:100%;
+
+
+    height:100%;
+
+
+    object-fit:cover;
+
+
+}
+
+
+
+
+
+
+/* PANEL CENTRAL */
+
+
+.center-panel{
+
+
+    border-radius:20px;
+
+
+    padding:12px;
+
+
+
+    border:
+
+
+    2px solid rgba(212,175,55,.35);
+
+
+
+    background:
+
+
+    rgba(255,255,255,.03);
+
+
+
+}
+
+
+
+
+
+
+/* TRANSMISION */
+
+
+.broadcast{
+
+
+    padding:12px;
+
+
+    border-radius:15px;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        180deg,
+
+        rgba(18,40,80,.95),
+
+        rgba(8,18,38,.95)
+
+    );
+
+
+
+    color:#f6dc74;
+
+
+    font-size:16px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+/* CALIDAD */
+
+
+.quality{
+
+
+    margin-top:8px;
+
+
+    color:white;
+
+
+    font-size:13px;
+
+
+}
+
+
+
+.quality strong{
+
+
+    color:#d4af37;
+
+
+}/* ======================================
+   ECUALIZADOR XAT
+   BLOQUE 3
+====================================== */
+
+
+.equalizer{
+
+
+    height:55px;
+
+
+    margin-top:15px;
+
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+
+    gap:5px;
+
+
+}
+
+
+
+
+.equalizer span{
+
+
+    width:5px;
+
+
+    height:35px;
+
+
+    border-radius:8px;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        180deg,
+
+        #f6dc74,
+
+        #d4af37,
+
+        #1f8cff
+
+    );
+
+
+
+    animation:equalize 1.2s infinite ease-in-out;
+
+
+
+    transform-origin:center;
+
+
+}
+
+
+
+
+
+/* CANCION */
+
+
+.song{
+
+
+    text-align:center;
+
+
+    margin-top:10px;
+
+
+}
+
+
+
+.song h3{
+
+
+    color:#d4af37;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+.song h2{
+
+
+    margin-top:5px;
+
+
+    color:white;
+
+
+    font-size:20px;
+
+
+}
+
+
+
+
+.song p{
+
+
+    color:#9fb7d8;
+
+
+    font-size:13px;
+
+
+}
+
+
+
+
+
+
+/* PANEL DERECHO */
+
+
+.right-panel{
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:10px;
+
+
+}
+
+
+
+
+.listeners,
+
+
+.social{
+
+
+    padding:10px;
+
+
+    border-radius:18px;
+
+
+
+    border:
+
+
+    2px solid rgba(212,175,55,.35);
+
+
+
+    background:
+
+
+    rgba(255,255,255,.03);
+
+
+
+}
+
+
+
+.listeners h3,
+
+
+.social h3{
+
+
+    color:#d4af37;
+
+
+    text-align:center;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+.listeners strong{
+
+
+    display:block;
+
+
+    font-size:35px;
+
+
+    text-align:center;
+
+
+    color:white;
+
+
+}
+
+
+
+.listeners p{
+
+
+    text-align:center;
+
+
+    color:#7dff8a;
+
+
+}
+
+
+
+
+
+
+/* REDES */
+
+
+.social-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+
+    padding:6px 0;
+
+
+    border-bottom:
+
+    1px solid rgba(255,255,255,.10);
+
+
+    color:#d8e6ff;
+
+}
+
+
+
+.social-item img{
+
+    width:22px;
+
+    height:22px;
+
+    object-fit:contain;
+
+}
+
+
+
+.social-item span{
+
+    font-size:11px;
+
+    white-space:nowrap;
+
+}
+
+
+
+.social-item img{
+
+
+    width:22px;
+
+
+    height:22px;
+
+
+    object-fit:contain;
+
+
+}/* ======================================
+   CONTROLES XAT
+   BLOQUE 4
+====================================== */
+
+
+.controls{
+
+    margin-top:18px;
+
+    width:100%;
+
+    height:60px;
+
+
+
+    border:
+
+
+    2px solid rgba(212,175,55,.35);
+
+
+
+    border-radius:18px;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        180deg,
+
+        rgba(18,40,80,.95),
+
+        rgba(8,18,38,.98)
+
+    );
+
+
+
+    display:flex;
+
+
+
+    align-items:center;
+
+
+
+    justify-content:space-around;
+
+
+
+    padding:10px;
+
+
+}
+
+
+
+
+
+.buttons{
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:15px;
+
+
+}
+
+
+
+
+.side-btn{
+
+
+    width:40px;
+
+
+    height:40px;
+
+
+
+    border-radius:50%;
+
+
+
+    border:2px solid #d4af37;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        180deg,
+
+        #e6c85c,
+
+        #9b761c
+
+    );
+
+
+
+    color:#08264f;
+
+
+
+    font-size:16px;
+
+
+
+}
+
+
+
+
+.play{
+
+
+    width:60px;
+
+
+    height:60px;
+
+
+
+    border-radius:50%;
+
+
+
+    border:
+
+
+    3px solid #2ca8ff;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        #ffe16d,
+
+        #b88617
+
+    );
+
+
+
+    color:#08264f;
+
+
+
+    font-size:28px;
+
+
+
+    box-shadow:
+
+
+    0 0 25px rgba(44,168,255,.55);
+
+
+}
+
+
+
+
+.volume{
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:8px;
+
+
+    font-size:22px;
+
+
+}
+
+
+
+
+.volume input{
+
+
+    width:120px;
+
+
+    height:6px;
+
+
+    accent-color:#d4af37;
+
+
+}
+
+
+
+
+.stream{
+
+
+    color:#d8e6ff;
+
+
+    text-align:center;
+
+
+    font-size:12px;
+
+
+}
+
+
+
+.stream strong{
+
+
+    display:block;
+
+
+    color:#d4af37;
+
+
+}
+
+
+
+
+
+
+/* ======================================
+   FOOTER XAT
+====================================== */
+
+
+.footer-bar{
+
+    width:100%;
+
+    margin-top:0px;
+
+    padding:8px 15px;
+
+
+
+    border:
+
+
+    2px solid rgba(212,175,55,.35);
+
+
+
+    border-radius:15px;
+
+
+
+    background:
+
+
+    linear-gradient(
+
+        180deg,
+
+        rgba(18,40,80,.95),
+
+        rgba(8,18,38,.98)
+
+    );
+
+
+
+    display:flex;
+
+
+    justify-content:space-between;
+
+
+    align-items:center;
+
+
+}
+
+
+
+.footer-left img{
+
+
+    width:35px;
+
+
+    height:35px;
+
+
+    object-fit:contain;
+
+
+}
+
+
+
+.footer-text{
+
+
+    font-family:'Great Vibes',cursive;
+
+
+
+    font-size:25px;
+
+
+
+    color:#d4af37;
+
+
+
+    text-align:center;
+
+
+
+    text-shadow:
+
+
+    0 0 8px rgba(212,175,55,.8),
+
+
+    0 0 18px rgba(212,175,55,.4);
+
+
+}
+
+
+
+.footer-right img{
+
+    width:45px;
+
+    height:30px;
+
+    object-fit:contain;
+
+}
+
+/* AJUSTE DE ANCHO */
+
+.controls,
+.footer-bar{
+
+    width:calc(100% + 30px);
+
+    margin-left:-15px;
+
+}/* ======================================
+   NOTAS MUSICALES AL PASAR EL MOUSE
+====================================== */
+
+.mouse-note{
+
+    position:absolute;
+
+    pointer-events:none;
+
+    z-index:100;
+
+    font-family:Arial,sans-serif;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    animation:mouseNoteFloat 1.1s ease-out forwards;
+
+    text-shadow:0 0 6px currentColor;
+
+}
+
+@keyframes mouseNoteFloat{
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        translate(-50%,-50%)
+        rotate(0deg)
+        scale(.7);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        translate(-50%,-70px)
+        rotate(35deg)
+        scale(1.3);
+
+    }
+
+}
